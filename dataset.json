@@ -1,0 +1,318 @@
+{"criteria":[
+	{"name":"Moratorium 2019","desc":""},
+	{"name":"Napa Valley","desc":""},
+	{"name":"Field of origin","desc":""},
+	{"name":"Mother Tongue","desc":""},
+	{"name":"Statement 2015","desc":""}
+
+],
+	"nodes":[
+	{
+		"name": "Eric Lander",
+		"img":"lander.jpg",
+		"photoCredit":"Casey Atkins Photography, courtesy of Broad Institute",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "didn't participate",
+		"Field of origin":"Biology",
+		"Mother Tongue":"English",
+		"Statement 2015":"has signed"
+	},
+	{
+		"name": "Françoise Baylis",
+		"img":"baylis.jpg",
+		"photoCredit":"NA",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "didn't participate",
+		"Field of origin":"Bioethics",
+		"Mother Tongue":"English",
+		"Statement 2015":"has signed"
+
+	},
+	{
+		"name": "Feng Zhang",
+		"img":"zhang.jpg",
+		"photoCredit":"NA",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "didn't participate",
+		"Field of origin":"Biology",
+		"Mother Tongue":"Chinese",
+		"Statement 2015":"did not sign"
+
+	
+	},
+	{
+		"name": "Emmanuelle Charpentier",
+		"img":"charpentier.jpg",
+		"photoCredit":"Bianca Fioretti, Hallbauer & Fioretti",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "didn't participate",
+		"Field of origin":"Biology",
+		"Mother Tongue":"French",
+		"Statement 2015":"did not sign"
+
+	},
+	{
+		"name": "Paul Berg",
+		"img":"berg.jpg",
+		"photoCredit":"Linda A. Cicero",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "didn't participate",
+		"Field of origin":"Biology",
+		"Mother Tongue":"English",
+		"Statement 2015":"has signed"
+		
+	},
+	{
+		"name": "Jennifer Doudna",
+		"img":"doudna.jpg",
+		"photoCredit":"Willard Photography",
+		"Moratorium 2019":"didn't sign",
+		"Napa Valley": "did participate",
+		"Field of origin":"Biology",
+		"Mother Tongue":"English",
+		"Statement 2015":"has signed"
+	},
+	{
+		"name": "Catherine Bourgain",
+		"img":"bourgain.jpg",
+		"photoCredit":"Bénédicte Martin",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "didn't participate",
+		"Field of origin":"Biology",
+		"Mother Tongue":"French",
+		"Statement 2015":"did not sign"
+	},
+	{
+		"name": "Bärbel Friedrich",
+		"img":"friedrich.jpg",
+		"photoCredit":"NA",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "didn't participate",
+		"Field of origin":"Biology",
+		"Mother Tongue":"German",
+		"Statement 2015":"did not sign"
+	},
+	{
+		"name": "J. Keith Joung",
+		"img":"joung.jpg",
+		"photoCredit":"",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "",
+		"Field of origin":"",
+		"Mother Tongue":"",
+		"Statement 2015":"did not sign"
+
+	},
+	{
+		"name": "Jinsong Li",
+		"img":"lijinsong.jpg",
+		"photoCredit":"NA",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "",
+		"Field of origin":"Biology",
+		"Mother Tongue":"Chinese",
+		"Statement 2015":"did not sign"
+
+	},
+	{
+		"name": "David Liu",
+		"img":"liu.jpg",
+		"photoCredit":"David Liu",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "",
+		"Field of origin":"",
+		"Mother Tongue":"",
+		"Statement 2015":"did not sign"
+
+	},
+	{
+		"name": "Luigi Naldini",
+		"img":"naldini.png",
+		"photoCredit":"NA",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "",
+		"Field of origin":"",
+		"Mother Tongue":"Italian",
+		"Statement 2015":"did not sign"
+
+	},
+	{
+		"name": "Jing-Bao Nie",
+		"img":"nie.jpg",
+		"photoCredit":"Graham Warman",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "",
+		"Field of origin":"Bioethics",
+		"Mother Tongue":"Chinese",
+		"Statement 2015":"did not sign"
+
+	},
+	{
+		"name": "Renzong Qiu",
+		"img":"qiurenzong.jpg",
+		"photoCredit":"Getty/Isaac Lawrence",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "",
+		"Field of origin":"Bioethics",
+		"Mother Tongue":"Chinese",
+		"Statement 2015":"did not sign"
+
+	},
+	{
+		"name": "Bettina Schoene-Seifert",
+		"img":"schone.jpg",
+		"photoCredit":"NA",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "",
+		"Field of origin":"Bioethics",
+		"Mother Tongue":"German",
+		"Statement 2015":"did not sign"
+
+	},
+	{
+		"name": "Feng Shao",
+		"img":"feng.jpg",
+		"photoCredit":"NA",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "",
+		"Field of origin":"Biology",
+		"Mother Tongue":"Chinese",
+		"Statement 2015":"did not sign"
+
+	},
+	{
+		"name": "Sharon Terry",
+		"img":"terry.png",
+		"photoCredit":"NA",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "",
+		"Field of origin":"Bioethics",
+		"Mother Tongue":"English",
+		"Statement 2015":"did not sign"
+	},
+	{
+		"name": "Wensheng Wei",
+		"img":"weiwensheng.jpg",
+		"photoCredit":"NA",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "",
+		"Field of origin":"Biology",
+		"Mother Tongue":"Chinese",
+		"Statement 2015":"did not sign"
+
+	},
+	{
+		"name": "Ernst-Ludwig Winnacker",
+		"img":"winnacker.jpg",
+		"photoCredit":"NA",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "",
+		"Field of origin":"",
+		"Mother Tongue":"",
+		"Statement 2015":"has signed"
+
+	},
+	{
+		"name": "André Choulika",
+		"img":"choulika.png",
+		"photoCredit":"PATRICK KOVARIK / AFP",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "",
+		"Field of origin":"Biology",
+		"Mother Tongue":"French",
+		"Statement 2015":"did not sign"
+
+	},
+	{
+		"name": "Fyodor Urnov",
+		"img":"urnov.jpg",
+		"photoCredit":"NA",
+		"Moratorium 2019":"has signed",
+		"Napa Valley": "",
+		"Field of origin":"Biology",
+		"Mother Tongue":"",
+		"Statement 2015":"did not sign"
+
+	},
+	{
+		"name": "David Baltimore",
+		"img":"baltimore.jpg",
+		"photoCredit":"",
+		"Moratorium 2019":" ",
+		"Napa Valley": "",
+		"Field of origin":"Biology",
+		"Mother Tongue":"",
+		"Statement 2015":"has signed"
+		
+	},
+	{
+		"name": "George Q. Daley",
+		"img":"daley.png",
+		"photoCredit":"",
+		"Moratorium 2019":"",
+		"Napa Valley": "",
+		"Field of origin":"Biology",
+		"Mother Tongue":"English",
+		"Statement 2015":"has signed"
+	},
+	{
+		"name": "Robin Lovell-Badge",
+		"img":"lovell.jpg",
+		"photoCredit":"",
+		"Moratorium 2019":" ",
+		"Napa Valley": "",
+		"Field of origin":"Biology",
+		"Mother Tongue":"English",
+		"Statement 2015":"has signed"
+	},
+	{
+		"name": "Duanqing Pei",
+		"img":"pei.jpg",
+		"photoCredit":"NA",
+		"Moratorium 2019":"",
+		"Napa Valley": "",
+		"Field of origin":"Biology",
+		"Mother Tongue":"",
+		"Statement 2015":"has signed"
+	},
+	{
+		"name": "Adrian Thrasher",
+		"img":"trasher.jpg",
+		"photoCredit":"NA",
+		"Moratorium 2019":" ",
+		"Napa Valley": "",
+		"Field of origin":"Biology",
+		"Mother Tongue":"",
+		"Statement 2015":"has signed"
+	},
+	{
+		"name": "Qi Zhou",
+		"img":"zhou.jpg",
+		"photoCredit":"",
+		"Moratorium 2019":" ",
+		"Napa Valley": "",
+		"Field of origin":"Biology",
+		"Mother Tongue":"",
+		"Statement 2015":"has signed"
+	},
+	{
+		"name": "He Jiankui",
+		"img":"he.jpg",
+		"photoCredit":"NA",
+		"Moratorium 2019":" ",
+		"Napa Valley": "",
+		"Field of origin":"Biology",
+		"Mother Tongue":"",
+		"Statement 2015":"did not sign"
+	},
+	{
+		"name": "George Church",
+		"img":"church.jpg",
+		"photoCredit":"",
+		"Moratorium 2019":" ",
+		"Napa Valley": "",
+		"Field of origin":"Biology",
+		"Mother Tongue":"",
+		"Statement 2015":"did not sign"
+	}
+]}
