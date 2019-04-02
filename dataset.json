@@ -1,9 +1,9 @@
 {"criteria":[
-	{"name":"Moratorium 2019","desc":""},
-	{"name":"Summit 2015 Statement","desc":""},
-	{"name":"Napa Valley","desc":""},
-	{"name":"Field of origin","desc":""},
-	{"name":"Mother Tongue°","desc":""}
+	{"name":"Moratorium 2019"},
+	{"name":"Summit 2015 Statement"},
+	{"name":"Napa Valley"},
+	{"name":"Field of origin"},
+	{"name":"Mother Tongue°"}
 	],
 	"nodes":[
 	{
@@ -97,10 +97,9 @@
 		"photoCredit":"",
 		"Moratorium 2019":"has signed",
 		"Napa Valley": "",
-		"Field of origin":"",
-		"Mother Tongue°":"",
+		"Field of origin":"Biology",
+		"Mother Tongue°":"English",
 		"Summit 2015 Statement":"did not sign"
-
 	},
 	{
 		"name": "Jinsong Li",
@@ -118,9 +117,9 @@
 		"img":"liu.jpg",
 		"photoCredit":"David Liu",
 		"Moratorium 2019":"has signed",
-		"Napa Valley": "",
-		"Field of origin":"",
-		"Mother Tongue°":"",
+		"Napa Valley": "did not participate",
+		"Field of origin":"Biology",
+		"Mother Tongue°":"English",
 		"Summit 2015 Statement":"did not sign"
 
 	},
@@ -129,8 +128,8 @@
 		"img":"naldini.png",
 		"photoCredit":"NA",
 		"Moratorium 2019":"has signed",
-		"Napa Valley": "",
-		"Field of origin":"",
+		"Napa Valley": "did not participate",
+		"Field of origin":"Biology",
 		"Mother Tongue°":"Italian",
 		"Summit 2015 Statement":"did not sign"
 
@@ -205,9 +204,9 @@
 		"img":"winnacker.jpg",
 		"photoCredit":"NA",
 		"Moratorium 2019":"has signed",
-		"Napa Valley": "",
-		"Field of origin":"",
-		"Mother Tongue°":"",
+		"Napa Valley": "did not participate",
+		"Field of origin":"Biology",
+		"Mother Tongue°":"German",
 		"Summit 2015 Statement":"has signed"
 
 	},
@@ -216,7 +215,7 @@
 		"img":"choulika.png",
 		"photoCredit":"PATRICK KOVARIK / AFP",
 		"Moratorium 2019":"has signed",
-		"Napa Valley": "",
+		"Napa Valley": "did not participate",
 		"Field of origin":"Biology",
 		"Mother Tongue°":"French",
 		"Summit 2015 Statement":"did not sign"
@@ -229,7 +228,7 @@
 		"Moratorium 2019":"has signed",
 		"Napa Valley": "",
 		"Field of origin":"Biology",
-		"Mother Tongue°":"",
+		"Mother Tongue°":"Russian",
 		"Summit 2015 Statement":"did not sign"
 
 	},
@@ -237,10 +236,10 @@
 		"name": "David Baltimore",
 		"img":"baltimore.jpg",
 		"photoCredit":"",
-		"Moratorium 2019":" ",
+		"Moratorium 2019":"did not sign",
 		"Napa Valley": "",
 		"Field of origin":"Biology",
-		"Mother Tongue°":"",
+		"Mother Tongue°":"English",
 		"Summit 2015 Statement":"has signed"
 		
 	},
@@ -248,7 +247,7 @@
 		"name": "George Q. Daley",
 		"img":"daley.png",
 		"photoCredit":"",
-		"Moratorium 2019":"",
+		"Moratorium 2019":"did not sign",
 		"Napa Valley": "",
 		"Field of origin":"Biology",
 		"Mother Tongue°":"English",
@@ -258,7 +257,7 @@
 		"name": "Robin Lovell-Badge",
 		"img":"lovell.jpg",
 		"photoCredit":"",
-		"Moratorium 2019":" ",
+		"Moratorium 2019":"did not sign",
 		"Napa Valley": "",
 		"Field of origin":"Biology",
 		"Mother Tongue°":"English",
@@ -268,50 +267,50 @@
 		"name": "Duanqing Pei",
 		"img":"pei.jpg",
 		"photoCredit":"NA",
-		"Moratorium 2019":"",
+		"Moratorium 2019":"did not sign",
 		"Napa Valley": "",
 		"Field of origin":"Biology",
-		"Mother Tongue°":"",
+		"Mother Tongue°":"Chinese",
 		"Summit 2015 Statement":"has signed"
 	},
 	{
 		"name": "Adrian Thrasher",
 		"img":"trasher.jpg",
 		"photoCredit":"NA",
-		"Moratorium 2019":" ",
+		"Moratorium 2019":"did not sign",
 		"Napa Valley": "",
 		"Field of origin":"Biology",
-		"Mother Tongue°":"",
+		"Mother Tongue°":"English",
 		"Summit 2015 Statement":"has signed"
 	},
 	{
 		"name": "Qi Zhou",
 		"img":"zhou.jpg",
 		"photoCredit":"",
-		"Moratorium 2019":" ",
+		"Moratorium 2019":"did not sign",
 		"Napa Valley": "",
 		"Field of origin":"Biology",
-		"Mother Tongue°":"",
+		"Mother Tongue°":"Chinese",
 		"Summit 2015 Statement":"has signed"
 	},
 	{
 		"name": "He Jiankui",
 		"img":"he.jpg",
 		"photoCredit":"NA",
-		"Moratorium 2019":" ",
+		"Moratorium 2019":"did not sign",
 		"Napa Valley": "",
 		"Field of origin":"Biology",
-		"Mother Tongue°":"",
+		"Mother Tongue°":"Chinese",
 		"Summit 2015 Statement":"did not sign"
 	},
 	{
 		"name": "George Church",
 		"img":"church.jpg",
 		"photoCredit":"",
-		"Moratorium 2019":" ",
+		"Moratorium 2019":"did not sign",
 		"Napa Valley": "",
 		"Field of origin":"Biology",
-		"Mother Tongue°":"",
+		"Mother Tongue°":"English",
 		"Summit 2015 Statement":"did not sign"
 	}
 ]}

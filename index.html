@@ -142,7 +142,6 @@ const isolate = (force, filter) => {
   return force;
 }
 
-
 var nodeImage = view.selectAll("nodeImage")                     // Create nodeImage variable
   .data(data)                                                 // Using the "humans" variable data
   .enter().append("image")                                      // Append images
@@ -150,8 +149,6 @@ var nodeImage = view.selectAll("nodeImage")                     // Create nodeIm
           .attr("xlink:href", d => "img/"+d.img)       // The image path is stored in the img property
           .attr("height", 40)                                   // Image height
           .attr("width", 40);                                    // Image width
-
-
 
 nodeImage.append("title").text(d => d.name);
 
@@ -168,8 +165,6 @@ nodeImage.append("title").text(d => d.name);
         .on("drag", forcedragged)
         .on("end", forcedragended));
 
-
-
  var sortInfo = view.selectAll("sortInfo")
         .data(data)
         .enter().append("text")
@@ -178,7 +173,6 @@ nodeImage.append("title").text(d => d.name);
         .attr("dy", 30)
         .style('fill', 'black');
        
-
 var name = view.selectAll("name")
       .data(data)
           .enter().append("text")
@@ -201,7 +195,6 @@ var name = view.selectAll("name")
 
 simulation.nodes(data).on("tick", ticked);
 
-
 var previousDiversity=[];
 
 const cartoSorter = (criteria) => {
@@ -210,29 +203,17 @@ var tabs = document.getElementsByClassName("criteriaTab");
 
 for (let i = 0; i < tabs.length; i++) {
   document.getElementById(tabs[i].id).style.backgroundColor="white";
-  document.getElementById(tabs[i].id).style.color="black";
-  
+  document.getElementById(tabs[i].id).style.color="black"; 
 }
 
 document.getElementById(criteria).style.color="white";
 document.getElementById(criteria).style.backgroundColor="black";
 
-const criteriaDescription = (crit) => {
-
-
-
-}
-
-
-
   for (let j = 0; j < previousDiversity.length; j++) {
     simulation.force(JSON.stringify(previousDiversity[j]), isolate(d3.forceX(0).strength(0), f => f[criteria] === previousDiversity[j]));
-
   }
 
   simulation.alpha(1).restart();
-
-
 
 let criteriaDiversity = [];
 
@@ -248,13 +229,10 @@ previousDiversity=[];
     simulation.force(JSON.stringify(criteriaDiversity[j]), isolate(d3.forceX((j*width) / (criteriaDiversity.length)).strength(0.3), f => f[criteria] === criteriaDiversity[j]));
     previousDiversity.push(criteriaDiversity[j]);
   }
-
   sortInfo.text(d =>d[criteria]); 
   simulation.nodes(data).on("tick", ticked);
   simulation.alpha(1).restart();
   }
-
-
 
 function forcedragstarted(d) {
   if (!d3.event.active) simulation.alpha(1).restart();
@@ -267,26 +245,22 @@ function forcedragged(d) {
   d.fy = d3.event.y;
 }
 
-function forcedragended(d) {
-  if (!d3.event.active) simulation.alpha(1).restart();
-  d.fx = null;
-  d.fy = null;
-}
+  function forcedragended(d) {
+      if (!d3.event.active) simulation.alpha(1).restart();
+      d.fx = null;
+      d.fy = null;
+  }
 
-
-    });
+});
 
 //======== ZOOM & RESCALE ===========
-svg.call(zoom)
-   .on("dblclick.zoom", null);
+svg.call(zoom).on("dblclick.zoom", null);
 
 function zoomed() {
    view.attr("transform", d3.event.transform);
-   }
-
-
 }
 
+}
 anthropotype();
 </script>
 </html>
