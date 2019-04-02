@@ -67,8 +67,8 @@ cursor:pointer;
 
 </div>
 <div id="footer">
- <div id=legend" style="padding:5px;"> Use your mouse wheel or pad to zoom in and out. Drag the mouse to move around. You can also drag nodes and click them to list its properties.
-    Choose a criteria from the following list to sort out the nodes and display its description. 
+ <div id=legend" style="padding:5px;"> Use your mouse wheel or your pad to zoom in and out. Drag the mouse to move around. You can also drag nodes and click them to list its properties.
+    Choose a criteria from the following list to sort out the nodes and display its description. Click on a <strong>name</strong> to tag it with a color. Double click on the name to remove the color.
 </div>
 <div id="tooltip">
 
@@ -92,7 +92,7 @@ var view = svg.append("g").attr("class", "view");
 
 //zoom extent
 var zoom = d3.zoom()                                      // Zoom ability
-    .scaleExtent([0.5, 10])                               // To which extent do we allow to zoom forward or zoom back
+    .scaleExtent([0.2, 15])                               // To which extent do we allow to zoom forward or zoom back
     .translateExtent([[-width,-height],[width*2,height*2]])
     .on("zoom", zoomed);                                  // Trigger the "zoomed" function on "zoom" behaviour
 
@@ -181,11 +181,14 @@ nodeImage.append("title").text(d => d.name);
 var name = view.selectAll("name")
       .data(data)
           .enter().append("text")
-          .attr("pointer-events", "none")
+          //.attr("pointer-events", "none")
           .attr("class", "humans")
           .attr("dx", 45)
           .attr("dy", 15)
           .style('fill', 'black')
+          .style('cursor', 'pointer')
+          .on('click',d=>{name.filter(e => e===d).style("fill","DeepSkyBlue")})
+          .on('dblclick',d=>{name.filter(e => e===d).style("fill","black")})
           .text(d => d.name);
 
   const ticked = () => {
