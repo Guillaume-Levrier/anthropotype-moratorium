@@ -1,5 +1,7 @@
 <html>
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 <style>
 
 body{
@@ -55,10 +57,17 @@ width : 130px;
 padding: 5px;
 border: .5px black solid;
 cursor:pointer;
-
 }
 .nodeImage{
 /*         clip-path: circle(); DRAGGABLE CLIP PATH UNSUPPORTED BY MOST BROWSERS  */
+}
+.openNew{
+position:absolute;
+right: 0px;
+bottom: 0px;
+padding: 5px;
+font-size: 18px;
+cursor: pointer;
 }
 </style>
 <div id="title" onclick='window.open("https://github.com/Guillaume-Levrier/PANDORAE")'>&nbsp;<strong>PANDORAE</strong> - anthropotype extract - genome editing controversy</div>
@@ -71,8 +80,9 @@ cursor:pointer;
     Choose a criteria from the following list to sort out the nodes and display its description. Click on a <strong>name</strong> to tag it with a color. Double click on the name to remove the color.
     &#176;: deduced from publicly available information.
     <div id="photoCredit"></div>
+    
   </div>
-
+  <i class="material-icons openNew"><a onclick="window.open(window.location,'_blank')">open_in_new</a></i>
 </div>
 
 <div id="xtype"></div>
