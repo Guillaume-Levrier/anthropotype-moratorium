@@ -5,7 +5,7 @@ A 18-strong group of scientists from seven countries, including the US, China an
 ## A Who’s Who of Genome Editing
 The interactive data visualization below displays the main actors of the controversy on the use of nucleases on human germline cells. It can be reodered according to different criteria, such whether they have signed previous statements ([HGE Summit 2015](http://www8.nationalacademies.org/onpinews/newsitem.aspx?RecordID=12032015a), [Napa Group](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4394183/)) on the topic, their field of origin, or mother tongue.
 
-<iframe width="100%" height="700px" style="border:0px" src="https://guillaume-levrier.github.io/anthropotype-moratorium/index.html"></iframe>
+<iframe width="740px" height="740px" style="border:0px" src="https://guillaume-levrier.github.io/anthropotype-moratorium/index.html"></iframe>
 
 Comparing actors highlights how they can align (or how they don’t) each time a new facet of the controversy arises. For example, Nobel Prize laureate David Baltimore signed the 2015 statement, but recently said in an [interview](https://www.sciencenews.org/article/nobel-prize-winner-david-baltimore-crispr-babies-ban) that he was against a moratorium.
 
